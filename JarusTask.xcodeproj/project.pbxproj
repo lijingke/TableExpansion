@@ -12,6 +12,7 @@
 		3B47996C1E21496D008C17D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B47996A1E21496D008C17D5 /* Main.storyboard */; };
 		3B47996E1E21496D008C17D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B47996D1E21496D008C17D5 /* Assets.xcassets */; };
 		3B4799711E21496D008C17D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B47996F1E21496D008C17D5 /* LaunchScreen.storyboard */; };
+		3B4799791E2156D7008C17D5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4799781E2156D7008C17D5 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3B47996D1E21496D008C17D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4799701E21496D008C17D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B4799721E21496D008C17D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4799781E2156D7008C17D5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3B4799661E21496D008C17D5 /* AppDelegate.swift */,
 				3B4799681E21496D008C17D5 /* ViewController.swift */,
+				3B4799781E2156D7008C17D5 /* CustomTableViewCell.swift */,
 				3B47996A1E21496D008C17D5 /* Main.storyboard */,
 				3B47996D1E21496D008C17D5 /* Assets.xcassets */,
 				3B47996F1E21496D008C17D5 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					3B4799621E21496D008C17D5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZVSKJ4U8QY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4799791E2156D7008C17D5 /* CustomTableViewCell.swift in Sources */,
 				3B4799691E21496D008C17D5 /* ViewController.swift in Sources */,
 				3B4799671E21496D008C17D5 /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZVSKJ4U8QY;
 				INFOPLIST_FILE = JarusTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstapp.JarusTask;
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZVSKJ4U8QY;
 				INFOPLIST_FILE = JarusTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstapp.JarusTask;
